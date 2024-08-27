@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+button{
+    width: 220px;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    text-align: left;
+    border: 2px solid #458FF6;
+    padding: 17px 51px;
+    margin-top: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+ .container{
+    width: 1200%;
+    max-width: 100%;
+    margin: 0 auto;
+ }
+
+
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 46px 131px;
+ }
+
+ nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+ }
+
+ nav ul li a{
+    color: #646365;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    line-height: 22.59px;
+    transition: 0.2s ease-in-out;
+ }
+
+ nav ul li a:hover{
+    color: black;
+ }
+
+.header_content{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 131px;
+    margin-left: 131px;
+}
+
+.right h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+.right p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #7D7987;
+    margin-top: 26.32px;
+}
+
+.text1 h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: black;
+    margin-left: 628px;
+    margin-top: 92px;
+}
+
+.text1 p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+    margin-top: 62px;
+    margin-left: 230px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    row-gap: 40%;
+}
+
+.card{
+    color: black;
+    width: 32%;
+    background-color: rgba(231, 231, 231, 1);
+    border-radius: 20px ;
+    padding: 71px 56px 31px 39px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 143px;
+    margin-top: 37px;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover{
+    background-color: rgba(90, 152, 242, 1);
+    color: white;
+}
+
+.card img{
+    width: 90px;
+}
+
+.card_text{
+    display: flex;
+    flex-direction: column;
+    gap: 15x;
+}
+
+.card_text h2{
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 56px;
+   text-align: left;
+}
+
+.card_text p{
+    max-width: 280px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+
+.n{
+    width: 220px;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    text-align: left;
+    border: 2px solid #458FF6;
+    padding: 17px 51px;
+    margin-top: 50px;
+    transition: 0.2s ease-in-out;
+    align-items: center;
+    margin-left:  639px;
+    margin-top: 33px;
+}
+
+.n:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+.text2 h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: black;
+    margin-left: 660px;
+    margin-top: 77px;
+}
+
+.left h2{
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+
+.text2{
+    display: flex;
+    gap: 112px;
+    margin-top: 75px;
+}
+
+.left p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color:#7D7987 ;
+    margin-top: 63px;
+}
+
+.o{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 131px;
+    margin-left: 131px;
+}
+
+.text21 h1{
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+.text21{
+    display: flex;
+    gap: 112px;
+    margin-top: 153px;
+    margin-left: 490px;
+}
+
+.sa{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    margin-top: 110px;
+    margin-left: 130px;
+}
+
+.sa img{
+    width: 380px;
+    height: 516px;
+}
+
+.k{
+    width: 220px;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    text-align: left;
+    border: 2px solid #458FF6;
+    padding: 17px 51px;
+    margin-top: 50px;
+    transition: 0.2s ease-in-out;
+    align-items: center;
+    margin-left:  639px;
+    margin-top: 33px;
+}
+
+.k:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+.jytw img{
+    display: flex;
+    width: 1343px;
+    margin-top: 231px;
+}
